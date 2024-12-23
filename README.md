@@ -1,0 +1,3 @@
+# MongoDB Aggregation Case-Insensitive Regex Bug
+
+This repository demonstrates a common error when using case-insensitive regular expressions in MongoDB aggregations. The bug arises from improperly handling case sensitivity during a matching process, causing the aggregation pipeline to miss documents that should match but do not due to capitalization differences.  The solution uses a case-insensitive regex. 
